@@ -1,7 +1,28 @@
-function sum(arr){
-    return arr.reduce(function(a,b){
-        return a + b +2
-    },0)
-}
+var num = [
+    {
+      "number": 4500
+    },
+    {
+      "number": 56550
+    }
+  ];
+  
+  
+var result = num.reduce(function(_this, val) {
+    return _this + val.number
+}, 0);
+var num1 = [
+    {
+      "number": 4500
+    },
+    {
+      "number": 56550
+    }
+  ];
+  
+  
+var resultt = num.reduce(function(_this, val) {
+    return _this + val.number
+}, 0);
 
-module.exports.sum = sum 
+console.log(result+resultt)
