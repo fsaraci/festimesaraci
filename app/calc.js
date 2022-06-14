@@ -14,6 +14,10 @@ var num1 = [
     {
       "number": 56550
     }
+    ,
+    {
+      "number": 56550
+    }
   ];
   
   let array = Object.entries(num).map(([key,value])=>value);
