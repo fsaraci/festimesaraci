@@ -1,7 +1,7 @@
-const _ = require('lodash')
+const array = require('./array')
+const jsonArray = require('./jsonConv')
+const lodash = require('lodash')
 
-function concat(arr){
-    return _.concat(arr,[1, 2, 3, 4, 5])
-}
+const concatedArray = lodash.concat(array,jsonArray.number)
 
-module.exports.concat = concat 
+module.exports = concatedArray
